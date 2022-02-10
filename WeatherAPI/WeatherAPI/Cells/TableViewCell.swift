@@ -20,6 +20,5 @@ class TableViewCell: UITableViewCell {
         cityNameLabel.text = weather.city
         temperatureLabel.text = "\(String(format: "%.0f", weather.tempCelsius))℃"
     }
-
     
 }

@@ -74,5 +74,4 @@ extension MainController: UITableViewDataSource, UITableViewDelegate {
         navigationController?.pushViewController(getWeather, animated: true)
     }
     
-    
 }
